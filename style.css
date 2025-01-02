@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-mario {
+    height: 200px;
+}
+
+
+button { 
+    background-color: #C51111;
+    border-radius: 30px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: azure;
+    margin: 20px;
+}
+
+.logo-marioluigi {
+    height: 500px;
+}
+
+body {
+    height: 100vh;
+}
+
+.caixa-mae {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    height: 100vh;
+}
+
+.caixa-pricipal {
+    width: 40%;
+    color: azure;
+}
+
+.caixa-video {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+
+}
+
+video {
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.mascara {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+}
+
+.link-whatsapp img {
+    height: 70px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+.cabecalho img {
+    height: 60px;
+}
+
+.cabecalho a {
+    color: azure;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cabecalho a:hover {
+    color: #C51111;
+    font-size: 24px;
+    transition: 0.5s ease-in-out;
+}
+
+.formulario-fale-conosco {
+    background-color: azure;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: fixed;
+    left: -300px;
+    top: 30%;
+    padding: 20px;
+    border-radius: 5px;
+    transition: left 1s ease-in-out;
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: green;
+}
+
+textarea {
+    width: 270px;
+    height: 100px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    padding-top: 5px;
+    outline-color: green;
+}
+
+.mascara-formulario {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(80,48,92,0.5886729691876751) 53%, rgba(30,2,62,1) 350%);    transition: visibility 1s ease-in-out;
+}
+
+@media(max-width: 1000px) {
+
+    p {
+        display: none;
+    }
+
+    .caixa-mae {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 10px;
+    }
+
+    .caixa-pricipal {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .logo-marioluigi {
+        width: 80vw;
+        height: auto;
+    }
+
+    .cabecalho img {
+        display: none;
+    }
+
+    .cabecalho {
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cabecalho a {
+        font-size: 20px;
+    }
+
+}

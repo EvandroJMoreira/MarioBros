@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Serviços</title> 
+</head>
+
+<body>
+    <div class="mascara-formulario" onclick="esconderForm()"></div>  
+
+    <div class="cabecalho">
+        <img src="./img/logo-header.png" alt="logo mario">
+        <a>Home</a>
+        <a href="nossos-servicos.html">Nossos Serviços</a>
+        <a href="http://surl.li/gbhtul">Fale Conosco</a>
+    </div>
+    <div class="caixa-mae">
+        <div class="caixa-pricipal">
+            <img src="./img/logo.png" alt="logo do prestador de serviço" class="logo-mario">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptas, quos tenetur. Nam nostrum accusantium alias dolorem,
+                dolore officia inventore, ullam aperiam ratione, fugiat odio eaque!
+                Odio minus explicabo placeat fugiat?
+            </p>
+            <button onclick="mostrarForm()">Entre em contato</button>
+        </div>
+
+        <div>
+            <img src="./img/mario.png" alt="logo do prestador de serviço" class="logo-marioluigi">
+        </div>
+    </div>
+
+    <div class="caixa-video">
+        <video src="./video/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+    <a href="http://surl.li/gbhtul" class="link-whatsapp">
+        <img src="./img/whatsapp.png" alt="Link para whatsapp">
+    </a>
+    <form 
+        class="formulario-fale-conosco" 
+        action="https://formcarry.com/s/WENa403pcN2" 
+        method="POST"
+        enctype="multipart/form-data">
+            <input placeholder="Seu nome" type="text" name="nome">
+            <input placeholder="Seu telefone com DDD" type="tel" name="telefone">
+            <textarea placeholder="Digite seu problema aqui..." name="duvida"></textarea>
+            <button type="submit">Pedir Orçamento</button>
+    </form>
+</body>
+
+<script src="scrips.js"></script>
+
+</html>
