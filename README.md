@@ -7,6 +7,9 @@
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="logo-css3">
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="logo-javascript">
 
+<h3>O Site</h3>
+<a href="https://evandrojmoreira.github.io/MarioBros/">clique aqui</a>
+
 <h2>Perspectiva do site</h2>
 <h3>Desktop</h3>
 <img src="https://github.com/EvandroJMoreira/MarioBros/blob/main/img/print01.png?raw=true" width=500px>
